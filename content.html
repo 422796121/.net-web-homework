@@ -1,0 +1,190 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 引入 Bootstrap -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+<!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+<link rel="stylesheet" href="css/content_style.css" type="text/css">
+<title>NAB2K17</title>
+</head>
+
+<body>
+<!-- 导航栏 -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    	<div class="container-fluid">
+        	<!-- 导航头部 -->
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                	<span class="sr-only">游戏按钮</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            	<!-- <a href="#" class="navbar-brand"><img src="images/logo.png" alt="返回首页"/></a> -->
+            </div>
+            <!-- 导航体 -->
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+            	<ul class="nav navbar-nav">
+                	<li><a href="index-demo.html">网站首页</a></li>
+                    <li><a href="my_game.html">我的游戏</a></li>
+                    <li><a href="购物车.html">购物车</a></li>
+                    <li class="dropdown">
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">游戏分类	
+                        <b class="caret"></b>
+                        </a>
+                    	<ul class="dropdown-menu">
+                            <li><a href="休闲游戏.html">休闲模拟</a></li>
+                            <li><a href="动作射击.html">动作射击</a></li>
+                            <li><a href="体育竞速.html">体育竞速</a></li>
+                	    <li><a href="角色扮演.html">动作扮演</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#about">关于我们</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                	<li>
+                    	<a href="registr.html">
+                    		<span class="glyphicon glyphicon-user"></span>
+                            注册
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="login.html">
+                    		<span class="glyphicon glyphicon-log-in"></span>
+                            登陆
+                        </a>
+                    </li>
+                    <li><a href="#"></a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+<div class="container">
+	<div class="row">
+    	<!--左侧子导航栏-->
+    	<div class="col-sm-3" id="left-carousel">
+            			<ul class="list-group">		
+                			<li class="list-group-item">浏览分类</li>
+                			<a href="#"><li class="list-group-item">热销</li></a>
+                			<a href="#"><li class="list-group-item">新品</li></a>
+                			<a href="#"><li class="list-group-item">即将推出</li></a>
+                            <a href="#"><li class="list-group-item">优惠</li></a>
+                			<li class="list-group-item">按类型浏览</li>
+                			<a href="休闲游戏.html"><li class="list-group-item">休闲模拟</li></a>
+                			<a href="动作射击.html"><li class="list-group-item">动作射击</li></a>
+                			<a href="体育竞速.html"><li class="list-group-item">体育竞速</li></a>
+                			<a href="角色扮演.html"><li class="list-group-item">角色扮演</li></a>
+                			<li class="list-group-item">最近查看</li>
+                			<li class="list-group-item"><a href="content.html">NBA 2K17</li></a>
+            			</ul>
+                    </div>
+        <!--右侧文章内容-->
+        <div class="col-sm-9">
+        	<div class="content">
+            	<!--文章内容-->
+                <div class="single">
+                	<h2>NAB2K17</h2>
+                    <div>
+                    	<h4>体育游戏</h4>
+                        <img src="images/content1.jpg" class="img-responsive img-game" alt="文章配图说明">
+                        <ul class="blog-ic">
+                        	<li><a><span><i class="glyphicon glyphicon-user"></i>作者姓名</span></a></li>
+                            <li><a><span><i class="glyphicon glyphicon-time"></i>2018-3-30 11:09</span></a></li>
+                            <li><a><span><i class="glyphicon glyphicon-open"></i>Hits:2983</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--评论表单-->
+                <div class="content-form">
+                	<h3>请按提示填写您的信息：</h3>
+                    <form action="http://www.zhbit.com">
+                    	<input type="text" placeholder="请输入您的姓名" required>
+                        <input type="text" placeholder="请输入您的电话号码" required>
+                        <textarea placeholder="请输入您的评论"></textarea>
+                        <input type="submit" value="提交评论">
+                    </form>
+                </div>
+                <!--评论记录-->
+                <div class="comments">
+                	<h3></h3>
+                    <div class="comment-info">
+                    	<h5>Johnson Zhao</h5>
+                        <p></p>
+                        <h6>2018-3-29 11:15</h6>
+                        <a>回复评论</a>
+                    </div>
+                    <div class="comment-info">
+                    	<h5>Johnson Zhao</h5>
+                        <p></p>
+                        <h6>2018-3-29 11:15</h6>
+                        <a>回复评论</a>
+                    </div>
+                    <div class="comment-info">
+                    	<h5>Johnson Zhao</h5>
+                        <p></p>
+                        <h6>2018-3-29 11:15</h6>
+                        <a>回复评论</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 页脚 -->
+<footer class="footer">
+    <div class="container">
+        <div class="pull-right">
+        	<a href="#top">回到顶部</a>
+        </div>
+        <div class="footer-left">
+            <p>Copyrights © 2017 游戏网站  | 版权所有 <a href="#"></a></p>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li><a href="#"><i class="glyphicon glyphicon-phone-alt">&nbsp;联系我们</i></a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-map-marker">&nbsp;公司地址</i></a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-question-sign">&nbsp;服务声明</i></a></li>
+
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!-- 关于我们 -->
+<div class="modal fade" id="about">
+	<div class="modal-dialog">
+    	<div class="modal-content">
+        	<!--标题-->
+            <div class="modal-header">
+            	<button type="button" class="close" data-dismiss="modal">
+                	<span aria-hidden="true">&times;</span>
+                    <span class="sr-only">关闭</span>
+                </button>
+                <h4 class="modal-title">关于我们</h4>
+            </div>
+            <!--主体-->
+            <div class=" modal-body">
+            	<img src="images/blog1.jpg">
+                <p>作为全球领先的游戏销售网站,我们不仅积极推动国产游戏的全球化发展;还大力发展国外游戏的业务,致力于成为全球领先的互动</p>
+            </div>
+            <!--底部-->
+            <div class="modal-footer">
+            	<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="lib/jquery/jquery-1.11.0.min.js"></script> 
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,376 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width,inital-scale=1.0">
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/mygame_style.css" rel="stylesheet" type="text/css"><br>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery/jquery-1.11.0.min.js"></script>
+<title>我的游戏</title>
+</head>
+
+<body>
+	<!-- 导航栏 -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    	<div class="container-fluid">
+        	<!-- 导航头部 -->
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                	<span class="sr-only">游戏按钮</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            	<!-- <a href="#" class="navbar-brand"><img src="images/logo.png" alt="返回首页"/></a> -->
+            </div>
+            <!-- 导航体 -->
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+            	<ul class="nav navbar-nav">
+                	<li><a href="index-demo.html">网站首页</a></li>
+                    <li><a href="my_game.html">我的游戏</a></li>
+                    <li><a href="购物车.html">购物车</a></li>
+                    <li class="dropdown">
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">游戏分类	
+                        <b class="caret"></b>
+                        </a>
+                    	<ul class="dropdown-menu">
+                        	<li><a href="休闲游戏.html">休闲模拟</a></li>
+                            <li><a href="动作射击.html">动作射击</a></li>
+                            <li><a href="体育竞速.html">体育竞速</a></li>
+                	    <li><a href="角色扮演.html">动作扮演</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#about">关于我们</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                	<li>
+                    	<a href="registr.html">
+                    		<span class="glyphicon glyphicon-user"></span>
+                            注册
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="login.html">
+                    		<span class="glyphicon glyphicon-log-in"></span>
+                            登陆
+                        </a>
+                    </li>
+                    <li><a href="#"></a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+         
+    <div id="top"></div>    
+    <!-- 内容 -->
+    <div class="content">
+        	<div class="container">
+        		<div class="row">
+                	<!-- 左侧导航栏 -->
+                	<div class="col-sm-offset-1 col-sm-3" id="left-carousel">
+            			<ul class="list-group">		
+                			<li class="list-group-item">浏览分类</li>
+                			<a href="#"><li class="list-group-item">热销</li></a>
+                			<a href="#"><li class="list-group-item">新品</li></a>
+                			<a href="#"><li class="list-group-item">即将推出</li></a>
+                            <a href="#"><li class="list-group-item">优惠</li></a>
+                			<li class="list-group-item">按类型浏览</li>
+                			<a href="休闲游戏.html"><li class="list-group-item">休闲模拟</li></a>
+                			<a href="动作射击.html"><li class="list-group-item">动作射击</li></a>
+                			<a href="体育竞速.html"><li class="list-group-item">体育竞速</li></a>
+                			<a href="角色扮演.html"><li class="list-group-item">角色扮演</li></a>
+                			<li class="list-group-item">最近查看</li>
+                			<li class="list-group-item"><a href="content.html">NBA 2K17</li></a>
+            			</ul>
+                    </div>
+                    <!-- 信息栏 -->
+            		<div class="col-sm-7" id="right-carousel">
+						<div class="setting visible" id="buy_game" >
+                        	<div class="buy">
+                            	<div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/1.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>游戏大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>购买时间：2020年2月29日<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏下载</a></p>
+                                        <p>游戏版本：ver 1.1.1<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>订单状态：已评价<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">删除订单</a></p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/1.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>游戏大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>购买时间：2020年2月29日<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏下载</a></p>
+                                        <p>游戏版本：ver 1.1.1<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>订单状态：已评价<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">删除订单</a></p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/1.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>游戏大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>购买时间：2020年2月29日<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏下载</a></p>
+                                        <p>游戏版本：ver 1.1.1<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>订单状态：已评价<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">删除订单</a></p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/1.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>游戏大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>购买时间：2020年2月29日<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏下载</a></p>
+                                        <p>游戏版本：ver 1.1.1<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>订单状态：已评价<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">删除订单</a></p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setting" id="update_game">
+                        	<div class="update">
+                            	<div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/2.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>更新包大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>当前游戏版本：ver 1.1.1<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏更新</a></p>
+                                        <p>最新游戏版本：ver 1.1.2<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>更新日期：2018.04.01<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">删除订单</a></p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/2.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>更新包大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>当前游戏版本：ver 1.1.1<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏更新</a></p>
+                                        <p>最新游戏版本：ver 1.1.2<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>更新日期：2018.04.01<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">删除订单</a></p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/2.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>更新包大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>当前游戏版本：ver 1.1.1<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏更新</a></p>
+                                        <p>最新游戏版本：ver 1.1.2<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>更新日期：2018.04.01<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">删除订单</a></p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/2.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>更新包大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>当前游戏版本：ver 1.1.1<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏更新</a></p>
+                                        <p>最新游戏版本：ver 1.1.2<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>更新日期：2018.04.01<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">删除订单</a></p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="setting" id="like_game">
+                        	<div class="like">
+                            	<div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/1.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>游戏大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>游戏价格：￥118<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>发售时间：2020年2月29日<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">取消关注</a></p>
+                                        <p>销量：233333</p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/1.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>游戏大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>游戏价格：￥118<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>发售时间：2020年2月29日<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">取消关注</a></p>
+                                        <p>销量：233333</p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/1.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>游戏大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>游戏价格：￥118<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>发售时间：2020年2月29日<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">取消关注</a></p>
+                                        <p>销量：233333</p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="game_list clearfix visible-lg">
+                                	<div class="game_para">
+                                    	<p class="para">
+                    					<img src="images/1.jpg">
+                        				<h3>绝地求生</h3>
+                                    	<p>游戏大小：16G<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">游戏详情</a></p>
+                                    	<p>游戏价格：￥118<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">联系客服</a></p>
+                                        <p>发售时间：2020年2月29日<a class="btn btn-primary pull-right" href="#" role="button" target="_blank">取消关注</a></p>
+                                        <p>销量：233333</p>
+                    					</p>
+                                    	<div class="clear"></div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="setting" id="personal_setting">
+                        	<div class="row">
+                				<div class="col-sm-offset-1 col-sm-10 form-box">
+                    			<form role="form" action="#" method="get" class="registration-form">
+                        			<div class="form-bottom">
+                                		<div class="form-group">
+                                    		<p>昵称</p>
+                                			<label class="sr-only" for="form-last-name">昵称：</label>
+                                            <input type="text" name="form-last-name" placeholder="请输入你的昵称" class="form-last-name form-control" id="form-last-name" autofocus>
+                                		</div>
+                                		<div class="form-group">
+                                			<p>个人描述</p>
+                                			<label class="sr-only" for="form-about-yourself">个人描述：</label>
+                                    		<textarea name="form-about-yourself" placeholder="请输入你的个人介绍" class="form-about-yourself form-control" id="form-about-yourself"></textarea>
+                                		</div>
+                                        <div class="form-group">
+                                    		<p>真实姓名</p>
+                                			<label class="sr-only" for="form-last-name">真实姓名：</label>
+                                            <input type="text" name="form-last-name" placeholder="请输入你的真实姓名" class="form-last-name form-control" id="form-last-name">
+                                		</div>
+                                        <div class="form-group">
+                                    		<p>身份证号码</p>
+                                			<label class="sr-only" for="form-last-name">身份证号码：</label>
+                                            <input type="text" name="form-last-name" placeholder="请输入你的身份证号码" class="form-last-name form-control" id="form-last-name">
+                                		</div>
+                            			<div class="form-group">
+                                			<p>年龄</p>
+                                			<label class="sr-only" for="form-age">年龄：</label>
+                                    		<input type="number" name="form-age" placeholder="请输入你的年龄" id="form-age" class="form-age form-control" min="0" max="120" value="0">
+                            			</div>
+                            			<div class="form-group">
+                                			<p>出生日期
+                                			<label class="sr-only" for="form-brithday">出生日期：</label>
+                                    		<input type="date" name="form-brithday" id="form-brithday" class="form-brithday form-control"></p>
+                                		</div>
+                                		<button type="button" class="btn btn-block">提交</button>
+                            		</div>
+                        			</form>
+                        		</div>
+                        	</div>
+                        </div>
+                        <div class="setting" id="reset_pwd">
+                        	<div class="row">
+                				<div class="col-sm-offset-1 col-sm-10 form-box">
+                    			<form role="form" action="#" method="get" class="registration-form">
+                        		<div class="form-group">
+                                	<p>原密码</p>
+                                	<label class="sr-only" for="form-password">原密码：</label>
+                                    <input type="password" name="form-password" placeholder="请输入第一次密码" id="form-password" class="form-password form-control">
+                                </div>
+                        		<div class="form-group">
+                                	<p>新密码</p>
+                                	<label class="sr-only" for="form-password">新密码：</label>
+                                    <input type="password" name="form-password" placeholder="请输入第一次密码" id="form-password" class="form-password form-control">
+                                </div>
+                            	<div class="form-group">
+                                	<p>重复新密码</p>
+                                	<label class="sr-only" for="form-repeat-password">重复新密码：</label>
+                                    <input type="password" name="form-repeat-password" placeholder="请输入第二次密码" id="form-repeat-password" class="form-repeat-password form-control">
+                            	</div>
+                                <button type="button" class="btn btn-block">提交</button>
+                        </div>
+                        </form>
+                        </div>
+                        </div>
+					</div> 
+                </div>
+            </div>
+        </div> 
+           
+<!-- 页脚 -->
+<footer class="footer">
+    <div class="container">
+        <div class="pull-right">
+        	<a href="#top">回到顶部</a>
+        </div>
+        <div class="footer-left">
+            <p>Copyrights © 2017 Bootstrap ZHBIT响应式餐饮网站  | 版权所有 <a href="#"></a></p>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li><a href="#"><i class="glyphicon glyphicon-phone-alt">&nbsp;联系我们</i></a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-map-marker">&nbsp;公司地址</i></a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-question-sign">&nbsp;服务声明</i></a></li>
+
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!-- 关于我们 -->
+<div class="modal fade" id="about">
+	<div class="modal-dialog">
+    	<div class="modal-content">
+        	<!--标题-->
+            <div class="modal-header">
+            	<button type="button" class="close" data-dismiss="modal">
+                	<span aria-hidden="true">&times;</span>
+                    <span class="sr-only">关闭</span>
+                </button>
+                <h4 class="modal-title">关于我们</h4>
+            </div>
+            <!--主体-->
+            <div class=" modal-body">
+            	<img src="images/blog1.jpg">
+                <p>作为全球领先的游戏销售网站,我们不仅积极推动国产游戏的全球化发展;还大力发展国外游戏的业务,致力于成为全球领先的互动</p>
+            </div>
+            <!--底部-->
+            <div class="modal-footer">
+            	<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery/jquery-1.11.0.min.js"></script>
+</body>
+</html>
